@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* Login CSS */
+#headerLogin:hover,#headerRegister:hover{
+	color:#662d91;
+	cursor:pointer;
+}
+#mask,#maske{
+	top:0px;
+	left:0px;
+	z-index:30;
+	width:100%;
+	height:100%;
+	display:none;
+	position:absolute;
+	background-color:rgba(0,0,0,0.7);
+}
+#signIn,#edit{
+	font-family:"ubu";
+	top:200px;
+	left:400px;
+	z-index:50;
+	width:500px;
+	height:350px;
+	display:none;
+	position:absolute;
+	border-radius:5px;
+	background-color:#e1e1e1;
+}
+#close,#closee{
+	float:right;
+	padding:10px;
+}
+#close:hover,#closee:hover{
+	opacity:0.5;
+	cursor:pointer;
+}
+#loginButton, #registerButton{
+	padding:10px;
+	margin-left:30px;
+	margin-top:15px;
+	border-bottom:solid 4px;
+	display:inline-block;
+	border-bottom-color:#662d91;
+}
+#loginButton:hover,#registerButton:hover{
+	cursor:pointer;
+}
+#loginForm,#registerForm{
+	margin:30px;
+	display:none;
+	text-align:center;
+}
+#editForm,#createfile,#dispatchfile,#trackfile{
+	margin:30px;
+	text-align:center;
+
+}
+#createfile textarea , #createfile input , #createfile textarea, #dispatchfile select , #dispatchfile input ,#trackfile input ,#trackfile select{
+	width:300px;
+	margin:10px;
+	border:none;
+	font-family:"ubu";
+	font-size:14px;
+	border-radius:5px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#CCCCCC;
+
+}
+#loginForm input,#registerForm input ,#registerForm select ,#editForm input {
+	width:300px;
+	margin:10px;
+	border:none;
+	height:35px;
+	font-size:14px;
+	border-radius:5px;
+	padding-left:10px;
+	padding-right:10px;
+	font-family:"ubu";
+}
+#loginForm a , #editForm a{
+	font-size:12px;
+	color:#968c8c;
+	text-decoration:underline;
+	font-family:"ubu";
+}
+#loginForm input[type=submit],#registerForm input[type=submit] , #editForm input[type=submit] ,#editForm input[type=submit] ,#createfile input[type=submit], #dispatchfile input[type=submit] , #trackfile input[type=submit]{
+	color:#FFF;
+	cursor:pointer;
+	background-color:#662d91;
+}

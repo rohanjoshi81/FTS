@@ -1,0 +1,55 @@
+
+body{
+font-family:"ubu";
+}
+#header{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	height:100px;
+}
+
+#header hr{
+	height:3px;
+	width:100%;
+	background-color: #662d91;
+	border-color:#662d91;
+}
+
+#login{
+	padding:20px;
+	padding-top:100px;
+	padding-right:500px;	
+	float:right;
+	color:#00A2E8;
+	font-size:36px;
+	font-family:"ubu";
+}
+
+#mimg{
+	padding:20px;
+	padding-left:80px;
+
+}
+#logout{
+	float:right;
+	padding-right:40px;
+
+
+}
+
+#editButton:hover,#create:hover,#dispatch:hover,#track:hover{
+	cursor:pointer;
+}
+
+#create,#dispatch,#track{
+	padding:10px;
+	margin-left:30px;
+	margin-top:15px;
+	border-bottom:solid 4px;
+	display:inline-block;
+	border-bottom-color:#662d91;
+	background-color:#CCCCCC;
+	width:150px;
+
+}
